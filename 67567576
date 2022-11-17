@@ -1,0 +1,345 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/feellikegod666/600x500White/main/600x500"))();
+
+local FraudsenseMain = library:CreateWindow({
+Name = "fraudsense",
+Themeable = {
+Info = ".gg/8R3dnutfZ7"
+}
+})
+
+local rageTab = FraudsenseMain:CreateTab({
+    Name = "rage"
+    })
+
+local desyncTab = FraudsenseMain:CreateTab({
+    Name = "desync"
+    })
+
+local miscTab = FraudsenseMain:CreateTab({
+    Name = "misc"
+    })
+
+local teleportTab = FraudsenseMain:CreateTab({
+    Name = "locations"
+    })
+
+local visualsTab = FraudsenseMain:CreateTab({
+    Name = "visuals"
+    })
+
+local VisualsSection = visualsTab:CreateSection({
+    Name = "visuals",
+    Side = "Left"
+    })
+
+VisualsSection:AddButton({
+    Name = "esp (p)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/esp/main/235n23u8nm92453nm5892"))();
+    end
+    })
+
+VisualsSection:AddButton({
+    Name = "bullet tracers",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/bullet/main/35m345m345345"))();
+    end
+    })
+
+VisualsSection:AddButton({
+    Name = "rainbow character",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/rainbow/main/34534563478"))();
+    end
+    })
+
+local teleport1Section = teleportTab:CreateSection({
+    Name = "teleports",
+    Side = "Left"
+    })
+
+teleport1Section:AddButton({
+    Name = "revolver",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-638.75, 18.8500004, -118.175011, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "ak",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-587.529358, 5.39480686, -753.717712, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "smg",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-577.123413, 5.47666788, -718.031433, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "ar",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-591.824158, 5.46046877, -744.731628, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "double barrel",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1039.59985, 18.8513641, -256.449951, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "shotgun",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-578.623657, 5.47212696, -725.131531, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "flame thrower",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-157.122437, 50.9120102, -104.93145, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "tactical shotgun",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(470.877533, 45.1272316, -620.630676, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end
+    })
+
+teleport1Section:AddButton({
+    Name = "rpg",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(118.664856, -29.6487694, -272.349792, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end
+    })
+
+local MiscSection = miscTab:CreateSection({
+    Name = "misc stuff",
+    Side = "Left"
+    })
+
+local MiscSection2 = miscTab:CreateSection({
+    Name = "face changer clientside",
+    Side = "Right"
+    })
+
+MiscSection2:AddButton({
+    Name = "meanie",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/faces/508490451.lua'))()
+    end
+    })
+
+MiscSection2:AddButton({
+    Name = "super super happy face",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/faces/494290547.lua'))()
+    end
+    })
+
+MiscSection2:AddButton({
+    Name = "silver punk face",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/faces/387256104.lua'))()
+    end
+    })
+
+MiscSection2:AddButton({
+    Name = "yum",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/faces/26018945.lua'))()
+    end
+    })
+
+MiscSection2:AddButton({
+    Name = "playfull vampire",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/faces/2409281591.lua'))()
+    end
+    })
+
+MiscSection2:AddButton({
+    Name = "beast mode",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/faces/127959433.lua'))()
+    end
+    })
+    
+MiscSection:AddButton({
+    Name = "god",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/god/main/34534745"))();
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "chat spy",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/spy/main/363763367"))();
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "no jump cooldown",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/cooldown/main/12423485"))();
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "cframe speed (z)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/cf/main/12763489673"))();
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "fps unlocker",
+    Callback = function()
+    setfpscap(500)
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "fake macro (y)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/fake/main/348637"))();
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "korblox clientside",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/korblox/main/36789376"))();
+    end
+    })
+
+MiscSection:AddButton({
+    Name = "headless clientside",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/headless/main/74832823"))();
+    end
+    })
+
+local RageSection = rageTab:CreateSection({
+    Name = "target aim",
+    Side = "Left"
+    })
+
+local RageSection2 = rageTab:CreateSection({
+    Name = "cambot",
+    Side = "right"
+    })
+
+RageSection2:AddButton({
+    Name = "enable smooth cambot (v)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/smooth/main/67346837"))();
+    end
+    })
+
+RageSection2:AddToggle({
+    Name = "auto prediction",
+    Callback = function()
+    print("auto prediction on")
+    end
+    })
+
+RageSection2:AddToggle({
+    Name = "k.o check",
+    Callback = function()
+    print("airshot function on")
+    end
+    })
+
+RageSection:AddButton({
+    Name = "enable target",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/target/main/347634"))();
+    end
+    })
+
+RageSection:AddToggle({
+    Name = "auto prediction",
+    Callback = function()
+    print("auto prediction on")
+    end
+    })
+
+RageSection:AddToggle({
+    Name = "airshot function",
+    Callback = function()
+    print("airshot function on")
+    end
+    })
+
+RageSection:AddToggle({
+    Name = "grabbed check",
+    Callback = function()
+    print("grabbed check on")
+    end
+    })
+
+RageSection:AddToggle({
+    Name = "underground aa resolver",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmbkdajhqslrubnckbjmdibgbsnyfchybe/resolver/main/9738543"))();
+    end
+    })
+
+RageSection:AddSlider({
+    Name = "prediction",
+    Flag = "prediction",
+    Value = 01,
+    Min = 01,
+    Max = 0200,
+    Textbox = true,
+    Format = function(Value)
+    if Value == 0 then
+    return "prediction"
+    else
+    return "prediction: " .. tostring(Value) .. "s"
+    end
+    end
+    })
+
+local desyncSection = desyncTab:CreateSection({
+    Name = "desync",
+    Side = "Left"
+    })
+
+desyncSection:AddButton({
+    Name = "normal desync (x)",
+    Callback = function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/23b49j872b47324b723butwerbuwehbrwebr3/7af22484eff651087301b4effd914d95/raw/f97963f7044c2214ac2678702f62183f73cecdf3/desynnnnnc"))();
+    end
+    })
+
+desyncSection:AddButton({
+    Name = "spin desync (rejoin for disable)",
+    Callback = function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/23b49j872b47324b723butwerbuwehbrwebr3/223a070cd27048d0d0ffb4c711caaadd/raw/7499e1e6f2fb29e9b5b84bd507e0daa82f0ade92/dawand2"))();
+    end
+    })
+
+desyncSection:AddButton({
+    Name = "roll aa (reset for disable)",
+    Callback = function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/23b49j872b47324b723butwerbuwehbrwebr3/a5b4a93c4c55843edbc1d9e5b6b67808/raw/f7093d020c4c270183c783cfed40955128ca62e8/rolla"))();
+    end
+    })
+
+desyncSection:AddButton({
+    Name = "underground aa (v)",
+    Callback = function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/23b49j872b47324b723butwerbuwehbrwebr3/61cf461b7b3321c93a900f053bf0515e/raw/608ab869d05338a20b93963cf5d1da0874d3d64f/underground"))();
+    end
+    })
